@@ -1,3 +1,11 @@
+/* couleurs variable */
+:root {
+	--bleu-fonce : #00669F;
+	--bleu-clair : #3BB9FF;
+	--vert-fonce : #00494F;
+	--vert-clair : #008766;
+}
+
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
@@ -124,6 +132,12 @@ li:hover {
 #portfolio h2 {
 	text-align: center;
 	margin-bottom: 1em;
+}
+
+#portfolio .filters {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
 }
 .gallery {
 	width: 100%;
