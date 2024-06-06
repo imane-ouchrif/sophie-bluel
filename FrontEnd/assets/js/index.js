@@ -15,7 +15,12 @@ let categories = [];
 
 // *********************** FUNCTIONS *********************** //
 
-// TODO : créer une fonction getWorks et une fonction getCategories 
+// TODO : créer une fonction getWorks et une fonction getCategories
+
+const getWorks = async () => {
+    const response = await fetch ("http://localhost:5678/api/works");
+    getWorks = await response.json();
+};
 
 // *********************** MAIN *********************** //
 
