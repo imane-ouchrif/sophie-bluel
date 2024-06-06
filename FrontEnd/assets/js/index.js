@@ -19,12 +19,12 @@ let categories = [];
 
 const getWorks = async () => {
     const response = await fetch("http://localhost:5678/api/works");
-    getWorks = await response.json();
+    allWorks = await response.json();
 };
 
 const getCategories = async () => {
     const response = await fetch("https://localhost:5678/api/catgories");
-    getCategories = await response.json();
+    allCategories = await response.json();
 };
 
 // *********************** MAIN *********************** //
