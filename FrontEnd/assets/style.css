@@ -4,6 +4,7 @@
 	--bleu-clair : #3BB9FF;
 	--vert-fonce : #00494F;
 	--vert-clair : #008766;
+	--white      : rgba(255, 255, 255, 1);
 }
 
 /* http://meyerweb.com/eric/tools/css/reset/
@@ -130,10 +131,13 @@ input {
 	border: none;
 	border-radius: 20px;
 	background-color: var(--vert-fonce);
-	color: rgba(255, 255, 255, 1);
-
+	color: var(--white)
 }
 
+main section a {
+	color: rgba(61, 61, 61, 1);
+
+}
 
 #introduction {
 	display: flex;
