@@ -189,19 +189,20 @@ aside {
 /*** dialog open ***/
 
 dialog {
+	height: 650px;
+	width: 650px;
 	border-radius: 10px;
 	background-color: rgba(255, 254, 248, 1);
 }
 
 dialog header {
 	position: relative;
-	padding: 250px;
 }
 
 	.fa-xmark {
 	position: absolute;
-	top: 0;
-	right: 0;
+	top: -40px;
+	right: 5px;
 	}
 
 	.fa-arrow-left {
@@ -209,6 +210,11 @@ dialog header {
 	top: 0;
 	left: 0;
 	display: none; /* Pour cacher l'icône de flèche */
+	}
+
+	dialog h3 {
+		position: absolute;
+		top: 30px;
 	}
 
 #introduction {
