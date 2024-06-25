@@ -186,6 +186,30 @@ aside {
 	justify-content: center;
 }
 
+/*** dialog open ***/
+
+dialog {
+	border-radius: 10px;
+}
+
+dialog header {
+	position: relative;
+	padding: 250px;
+}
+
+	.fa-xmark {
+	position: absolute;
+	top: 0;
+	right: 0;
+	}
+
+	.fa-arrow-left {
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: none; /* Pour cacher l'icône de flèche */
+	}
+
 #introduction {
 	display: flex;
 	align-items: center;
