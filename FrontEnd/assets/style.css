@@ -190,6 +190,7 @@ aside {
 
 dialog {
 	border-radius: 10px;
+	background-color: rgba(255, 254, 248, 1);
 }
 
 dialog header {
