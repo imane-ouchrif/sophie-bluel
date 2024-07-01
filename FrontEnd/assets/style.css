@@ -65,9 +65,17 @@ body {
 }
 header {
 	display: flex;
-	justify-content: space-between;
+	gap: 30px;
+	place-items: baseline;
 	margin: 50px 0
 }
+
+header button {
+	border: none;
+	background-color: transparent;
+	font-size: 1.2rem;
+}
+
 section {
 	margin: 100px 0
 }
@@ -173,11 +181,6 @@ footer a {
 aside {
 	width: 100%;
 	height: 50px;
-	position: fixed;
-	top: 0;
-	left: 0;
-	right: 0;
-	bottom: 0;
 	margin-bottom: 20px;
 	background-color: black;
 	color: white;
@@ -189,10 +192,15 @@ aside {
 /*** dialog open ***/
 
 dialog {
-	height: 650px;
-	width: 650px;
+	position: fixed;
+	top: calc(50vh - 344px);
+	left: calc(50vw - 750px);
+	box-sizing: border-box;
+	height: 688px;
+	width: 780px;
 	border-radius: 10px;
 	background-color: rgba(255, 254, 248, 1);
+	text-align: center;
 }
 
 dialog header {
@@ -213,8 +221,16 @@ dialog header {
 	}
 
 	dialog h3 {
-		position: absolute;
-		top: 30px;
+	margin: auto;
+	font-size: 1.6rem;
+	}
+
+	dialog button {
+		background-color: var(--vert-fonce);
+		border: none;
+		border-radius: 20px;
+		color: #fff;
+		padding: 10px 30px;
 	}
 
 #introduction {
