@@ -214,6 +214,16 @@ dialog header {
 	}
 }
 
+	.fa-trash-can {
+		position: absolute;
+		top: 5px;
+		right: 5px;
+		padding: 8px 4px;
+		background: black;
+		color: #fff;
+		border-radius: 2px;
+	}
+
 	.fa-xmark {
 	top: -40px;
 	right: 5px;
@@ -247,6 +257,10 @@ dialog header {
 		padding: 50px 100px;
 		box-sizing: border-box;
 		grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	}
+
+	dialog .gallery figure {
+		position: relative;
 	}
 
 #introduction {
